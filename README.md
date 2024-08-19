@@ -1,4 +1,6 @@
 # PyGame
+To start any game of this, run file main.py in directory with game's name
+
 Here are 3 games on pygame. 
 Ping-Pong and shooter are simple.
 
