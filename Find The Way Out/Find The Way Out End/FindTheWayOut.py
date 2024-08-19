@@ -187,7 +187,6 @@ class Door():
         window.blit(self.image, (self.rect.x,self.rect.y))
 
     def teleportation(self):
-    
         if dictionary_items[self.item] or self.item == None:
             global location
             player_hero.rect.x=self.tp_x
@@ -222,8 +221,6 @@ class Note(sprite.Sprite):
         self.rect=self.image.get_rect()
         self.rect.x=object_x
         self.rect.y=object_y
-
-
 
         
     def update(self):
@@ -370,8 +367,6 @@ object_key_green=Interactive_object(550,600,50,50,'IMG/chest_green.png','key_gre
 
 decor_list1 = [bed, bookshelf1, bookshelf2, tbl,round_tbl]
 decor_list11 = [carpet,bed, bookshelf1, bookshelf2, tbl,round_tbl]
-
-
 
 
 #room-2
